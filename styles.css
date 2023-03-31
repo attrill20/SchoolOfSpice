@@ -7,8 +7,21 @@
         font-family: 'Calistoga', cursive;
         font-family: 'Courgette', cursive;
         font-family: 'DM Serif Text', serif;
-        font-size: 50px;
+        font-size: 80px;
         color: var(--spiceRed);
+        text-align: center;
+        border-bottom-width: 5px;
+        border-bottom-style: solid;
+        border-bottom-color: var(--spiceOrange);
+    }
+
+    #container1 {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
     }
 
     #intro {
@@ -16,18 +29,18 @@
         font-family: 'Calistoga', cursive;
         font-family: 'Courgette', cursive;
         font-family: 'DM Serif Text', serif;
-        font-size: 20px;
+        font-size: 25px;
         color: black;
+        margin-left: 150px;
     }
     img {
-    
-        width: 50%;
-        height: 50%;
-        
+        width: 40%;
+        height: 40%;
+        margin-left: 100px;
+        margin-right: 150px;
     }
     
 #button1 {
-
   color: white;
   padding: 20px 45px;
   text-align: center;
@@ -38,6 +51,5 @@
   font-family: 'DM Serif Text', serif;
   font-size: 20px;
   background-color: var(--spiceRed);
-        ; 
     }  
 
