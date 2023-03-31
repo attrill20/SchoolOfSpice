@@ -1,0 +1,43 @@
+:root {
+    --spiceRed: #750001;
+    --spiceGreen:#294215;
+    --spiceOrange:#de6527;
+    }
+    #pageTitle {
+        font-family: 'Calistoga', cursive;
+        font-family: 'Courgette', cursive;
+        font-family: 'DM Serif Text', serif;
+        font-size: 50px;
+        color: var(--spiceRed);
+    }
+
+    #intro {
+        align-content: flex-start;
+        font-family: 'Calistoga', cursive;
+        font-family: 'Courgette', cursive;
+        font-family: 'DM Serif Text', serif;
+        font-size: 20px;
+        color: black;
+    }
+    img {
+    
+        width: 50%;
+        height: 50%;
+        
+    }
+    
+#button1 {
+
+  color: white;
+  padding: 20px 45px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Calistoga', cursive;
+  font-family: 'Courgette', cursive;
+  font-family: 'DM Serif Text', serif;
+  font-size: 20px;
+  background-color: var(--spiceRed);
+        ; 
+    }  
+
