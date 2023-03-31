@@ -15,6 +15,53 @@
         border-bottom-color: var(--spiceOrange);
     }
 
+    Menu { 
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #MenuButton {
+        background-color: var(--spiceGreen);
+        color: white;
+        padding: 20px 45px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-family: 'Calistoga', cursive;
+        font-family: 'Courgette', cursive;
+        font-family: 'DM Serif Text', serif;
+        font-size: 20px;
+        margin-right: 10px;
+    }
+
+    #chilliLogo {
+        width: 70px;
+        height: 70px;
+        margin-left: 1px;
+        margin-right: 1200px;
+
+    }
+
+    #instaLogo, #twitLogo, #faceLogo {
+        width: 50px;
+        height: 50px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #menu1 {
+        font-family: 'Calistoga', cursive;
+        font-family: 'Courgette', cursive;
+        font-family: 'DM Serif Text', serif;
+        font-size: 25px;
+        color: black;
+        margin-left: 150px;
+    }
+
     #container1 {
         display: flex;
         flex-direction: row;
